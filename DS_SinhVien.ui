@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DS_SV</class>
+ <widget class="QDialog" name="DS_SV">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>801</width>
+    <height>606</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>0</y>
+     <width>301</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Danh Sách Sinh Viên </string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>71</y>
+     <width>771</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QLabel" name="lblMALOP_2">
+          <property name="text">
+           <string>Mã lớp: </string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="editMALOP"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="lblNAMHOC_2">
+          <property name="text">
+           <string>Năm học:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="editNAMHOC"/>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btnTimKiem">
+          <property name="text">
+           <string>Tìm kiếm</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btnXemLop">
+          <property name="text">
+           <string>Xem DS lớp</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Thông tin lớp </string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QLabel" name="lblMALOP">
+          <property name="text">
+           <string>Mã lớp:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="lblTENLOP">
+          <property name="text">
+           <string>Tên lớp:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="lblNAMHOC">
+          <property name="text">
+           <string>Năm học:</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QTableWidget" name="tableSV">
+      <attribute name="horizontalHeaderDefaultSectionSize">
+       <number>128</number>
+      </attribute>
+      <column>
+       <property name="text">
+        <string>Mã SV</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Họ</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Tên</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Phái</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>SĐT</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Năm nhập học</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+    <item>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="lblMASV">
+        <property name="text">
+         <string>Mã SV:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="editMASV"/>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLabel" name="lblHO">
+        <property name="text">
+         <string>Họ:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QLineEdit" name="editHO"/>
+      </item>
+      <item row="0" column="4">
+       <widget class="QLabel" name="lblTEN">
+        <property name="text">
+         <string>Tên:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="5" colspan="2">
+       <widget class="QLineEdit" name="editTEN"/>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="lblPHAI">
+        <property name="text">
+         <string>Phái </string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="editPHAI"/>
+      </item>
+      <item row="1" column="2">
+       <widget class="QLabel" name="lblSDT">
+        <property name="text">
+         <string>SĐT:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="QLineEdit" name="editSODT"/>
+      </item>
+      <item row="1" column="4" colspan="2">
+       <widget class="QLabel" name="lblNAMNHAP">
+        <property name="text">
+         <string>Năm nhập học:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="6">
+       <widget class="QLineEdit" name="editNAMNHAP"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="btnThem">
+        <property name="text">
+         <string>Thêm</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnSua">
+        <property name="text">
+         <string>Sửa</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnXoa">
+        <property name="text">
+         <string>Xóa</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="btnBack">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>93</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Quay lại</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

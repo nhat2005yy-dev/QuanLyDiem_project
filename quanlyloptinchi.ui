@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QuanLyLopTinChi</class>
+ <widget class="QDialog" name="QuanLyLopTinChi">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1086</width>
+    <height>722</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="btnQuayLai">
+   <property name="geometry">
+    <rect>
+     <x>22</x>
+     <y>12</y>
+     <width>93</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Quay lại</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>110</y>
+     <width>1061</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLabel" name="lblNienKhoa">
+        <property name="text">
+         <string>Niên khóa </string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="editNienKhoa"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="lblHocKy">
+        <property name="text">
+         <string>Học kỳ </string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="editHocKy"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="lblNhom">
+        <property name="text">
+         <string>Nhóm</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="editNhom"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="lblMaMon">
+        <property name="text">
+         <string>Mã môn</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="editMaMon"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QPushButton" name="btnThem">
+          <property name="text">
+           <string>Thêm lớp tín chỉ</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btnSua">
+          <property name="text">
+           <string>Sửa</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btnXoa">
+          <property name="text">
+           <string>Xóa</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btnIn">
+          <property name="text">
+           <string>In</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="1" column="0">
+       <widget class="QTableWidget" name="banghienthi">
+        <property name="columnCount">
+         <number>14</number>
+        </property>
+        <attribute name="horizontalHeaderDefaultSectionSize">
+         <number>132</number>
+        </attribute>
+        <attribute name="horizontalHeaderStretchLastSection">
+         <bool>false</bool>
+        </attribute>
+        <column>
+         <property name="text">
+          <string>Mã lớp TC</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Mã môn</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Tên môn học </string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Niên khóa</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Học kỳ</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Nhóm</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Số SV min</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Số SV max</string>
+         </property>
+        </column>
+        <column/>
+        <column/>
+        <column/>
+        <column/>
+        <column/>
+        <column/>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>20</y>
+     <width>340</width>
+     <height>56</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>25</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Quản lý lớp tín chỉ</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

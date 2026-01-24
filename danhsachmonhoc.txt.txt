@@ -1,0 +1,22 @@
+BAS1151|Kinh tế chính trị Mác - Lênin|3|0
+BAS1201|Đại số|3|0
+BAS1203|Giải tích 1|3|0
+BAS1204|Giải tích 2|3|0
+BAS1269|Xác suất thống kê|3|0
+BAS1270|Vật lý ứng dụng|2|2
+INT11117|Nhập môn tin học và lập trình|2|1
+INT1154|Tin học cơ sở 1|3|0
+INT1306|Cấu trúc dữ liệu và giải thuật|2|1
+INT13145|Kiến trúc máy tính|3|0
+INT1339|Ngôn ngữ lập trình C++|2|1
+INT1358|Toán rời rạc 1|3|0
+INT1359|toán rời rạc 2|3|0
+INT14119|Lập trình Python|3|0
+SKD1101|Kỹ năng thuyết trình|1|0
+SKD1102|Kỹ năng làm việc nhóm|1|0
+SKD1108|Phương pháp luận nghiên cứu khoa học|2|0
+INT1408|Hệ quản trị cơ sở dữ liệu|3|1
+INT1434|Mạng máy tính|3|1
+INT1340|Lập trình hướng đối tượng|3|1
+INT1332|Hệ điều hành|3|0
+BAS1222|Tiếng Anh 1|4|0
